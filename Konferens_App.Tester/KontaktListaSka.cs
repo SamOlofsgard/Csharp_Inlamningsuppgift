@@ -10,7 +10,9 @@ namespace Konferens_App.Tester
     public class KontaktListaSka
     {
         KontaktLista sut = new KontaktLista();
-
+        /// <summary>
+        /// Testar att skapa en ny kontakt via KontaktPerson och kollar så att item inte är tom
+        /// </summary>
         [Fact]
         public void CreateKontakt()
         {
@@ -21,7 +23,10 @@ namespace Konferens_App.Tester
 
 
         }
-
+        /// <summary>
+        /// Testar att lägga till i Kontaktlistan i applicationen och 
+        /// kollar så att det finns någon kontakt i kontaktpersoner
+        /// </summary>
         [Fact]
         public void AddToItemList()
         {
@@ -37,6 +42,9 @@ namespace Konferens_App.Tester
             Assert.True(sut.KontaktPersoner.Any());
 
         }
+        /// <summary>
+        /// Testar om man kan hämta kontakter från  Kontaktlistan
+        /// </summary>
         [Fact]
         public void GetKontaktPersoner()
         {

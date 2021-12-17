@@ -15,8 +15,7 @@ namespace Konferens_App_Deltagare
         /// locationTextFile är variabeln där pathen är sparad, just nu
         /// hamnar WriteLines.txt filen i root katalogen Konferens_App_Deltagare
         /// </summary>
-        private string locationTextfile= @"..\..\..\WriteLines.txt";
-                       
+        private string locationTextfile= @"..\..\..\WriteLines.txt";                       
 
         KontaktLista kontaktLista = new KontaktLista();
         GetContactsFromFile Contacts = new GetContactsFromFile();
@@ -116,7 +115,8 @@ namespace Konferens_App_Deltagare
         {
             var obj = (Button)sender;
             var item = (KontaktPerson)obj.DataContext;
-            MessageBox.Show($"Deltagaren har {item.Allergi}");            
+            MessageBox.Show($"Deltagaren har {item.Allergi}");  
+            
         }
         /// <summary>
         /// btnRabatt_Click Visar rabatten som symbol och när man klickar på
