@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konferens_App_Deltagare", "Konferens_App_Deltagare\Konferens_App_Deltagare.csproj", "{1510E3B4-831C-448E-93A5-FA0B07F5AD7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konferens_App.Tester", "Konferens_App.Tester\Konferens_App.Tester.csproj", "{88053A7D-0DF3-4974-8E84-EF6078EBEEFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1510E3B4-831C-448E-93A5-FA0B07F5AD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1510E3B4-831C-448E-93A5-FA0B07F5AD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1510E3B4-831C-448E-93A5-FA0B07F5AD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1510E3B4-831C-448E-93A5-FA0B07F5AD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88053A7D-0DF3-4974-8E84-EF6078EBEEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88053A7D-0DF3-4974-8E84-EF6078EBEEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88053A7D-0DF3-4974-8E84-EF6078EBEEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88053A7D-0DF3-4974-8E84-EF6078EBEEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA0D72B9-E265-478A-8A5A-303FF8B8B196}
+	EndGlobalSection
+EndGlobal
